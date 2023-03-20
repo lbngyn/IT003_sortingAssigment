@@ -2,14 +2,14 @@
 #include <chrono>
 using namespace std;
 int const  MAXN = 1000000;
+double arr[MAXN + 5];
 
 int main()
 {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-
-    double arr[MAXN + 5];
+    
     int n = MAXN;
 
     for (int i = 1; i <= 10; i++)

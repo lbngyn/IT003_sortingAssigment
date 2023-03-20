@@ -2,6 +2,7 @@
 #include <chrono>
 using namespace std;
 const int MAXN = 1e6;
+double arr[MAXN + 5];
 
 void merge(double array[], int const left, int const mid,
            int const right)
@@ -69,7 +70,6 @@ int main()
     cin.tie(0);
     cout.tie(0);
 
-    double arr[MAXN + 5];
     int n = MAXN;
 
     for (int i = 1; i <= 10; i++)
